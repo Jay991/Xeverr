@@ -12,5 +12,5 @@ contract Mappings {
     
     function getMyMapping(uint position) constant returns (bool) {
         return myMapping[position];
-    }
+    } 
 }
