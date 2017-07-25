@@ -1,7 +1,7 @@
 <?php
 /*
 * code to read from block chain
-* by reading a a miner address that found the latest block.
+* by reading a miner address that found the latest block.
 */
 // api url to call
 $url = "https://blockchain.info/latestblock";
