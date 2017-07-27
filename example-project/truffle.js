@@ -21,13 +21,13 @@ module.exports = {
 
   networks: {
     development: {
-      host: "localhost",
-      port: 8545,
+      host: process.env.IP,
+      port: process.env.PORT,
       network_id: "*" // match any network
     },
     live: {
-      host: "localhost",
-      port: 8545,
+      host: process.env.IP,
+      port: process.env.PORT,
       network_id: "*" // match any network
     }
   }

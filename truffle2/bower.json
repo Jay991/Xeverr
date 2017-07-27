@@ -1,0 +1,25 @@
+{
+  "name": "truffle2",
+  "homepage": "https://github.com/Jay991/Galton-Official",
+  "authors": [
+    "Fadi Zahhar <79freelancer@gmail.com>"
+  ],
+  "description": "demo application",
+  "main": ".bowerrc",
+  "keywords": [
+    "keyword"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.5",
+    "angular-route": "^1.6.5"
+  }
+}
