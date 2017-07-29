@@ -1,8 +1,8 @@
 module.exports = {
   networks: {
     development: {
-      host: "localhost",
-      port: 8545,
+      host: process.env.IP,
+      port: process.env.PORT,
       network_id: "*" // Match any network id
     }
   }
